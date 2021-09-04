@@ -307,8 +307,32 @@ ul {
   margin-left: var(--main-gap);
 }
 
+.our-work-sectoin-item-wrapper {
+  position: relative;
+}
+
 .our-work-sectoin-item-picture {
   display: block;
+}
+
+.our-work-sectoin-item-lable {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+  width: 100%;
+  padding: 27px 0;
 }
 
 /* ---Our team Section--- */
